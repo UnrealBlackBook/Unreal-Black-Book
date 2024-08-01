@@ -15,6 +15,9 @@ on:
     # paths:
     # - some-subfolder/**
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 # This job installs dependencies, builds the book, and pushes it to `gh-pages`
 jobs:
   deploy-book:
